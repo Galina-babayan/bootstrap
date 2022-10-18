@@ -43,16 +43,16 @@ body {
   flex-direction: column;
 }
 /* ---------------------------------------------- */
-._container {
+.container {
   max-width: 1320px;
   margin: 0px auto;
   padding: 0px 15px;
 }
-._ibg {
+.ibg {
   position: relative;
 }
 
-._ibg img {
+.ibg img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -71,22 +71,8 @@ body {
   justify-content: space-between;
 }
 
-.header__logo {
-}
-
 /* --------------------block1--------------------- */
-.block1__button {
-}
-.button {
-}
-.page {
-}
-.page__block1 {
-}
-.block1 {
-}
-.block1__container {
-}
+
 .block1__title {
   font-size: 60px;
   letter-spacing: 0.1px;
@@ -97,14 +83,13 @@ body {
 }
 .block1__row {
   display: flex;
-  /* margin: 0px 15px; */
 }
+
 .block1__column {
   margin: 0px 15px;
   flex: 0 1 33.333%;
 }
-.column {
-}
+
 .column__image {
   display: block;
   padding: 0px 0px 74% 0px;
@@ -112,10 +97,10 @@ body {
 .column__content {
   padding: 20px;
 }
-.column__content_link {
+.content__link {
   display: inline-block;
 }
-.column__content_title {
+.content__title {
   padding: 20px 0px;
   font-size: 30px;
   letter-spacing: 0.1px;
@@ -123,8 +108,6 @@ body {
   color: black;
   font-weight: 700;
   font-family: Montserrat;
-}
-.column__content_text {
 }
 
 .block1__button {
@@ -210,25 +193,14 @@ body {
   }
 }
 /* -------------------------block2--------------------- */
-.page__block2 {
-}
-.block2 {
-}
-.block2__container {
-}
+
 .block2__row {
   display: flex;
-
-  /* margin: 0px -15px; */
 }
 .column {
-  /* margin: 0px 15px; */
   flex: 0 1 33.333%;
 }
-.block2__item {
-}
-.item {
-}
+
 .item__title {
   font-size: 30px;
   letter-spacing: 0.1px;
@@ -237,10 +209,7 @@ body {
   font-weight: 700;
   font-family: Montserrat;
 }
-.item__text {
-}
-.block2__news {
-}
+
 .news {
   display: flex;
   flex-direction: column;
@@ -259,7 +228,6 @@ body {
   flex: 0 1 50%;
   display: flex;
   align-items: center;
-  border: 1px solid rgba(249, 249, 249, 1);
 }
 .news__input {
   width: 100%;
@@ -285,14 +253,7 @@ body {
 }
 
 /* ---------------------------------footer------------------- */
-.footer {
-}
-.footer__container {
-}
-.footer__nav {
-}
-.footer__menu {
-}
+
 .menu {
   padding: 5px 0px;
 }
@@ -304,5 +265,4 @@ body {
 }
 .menu__link {
   color: black;
-  /* display: inline-block; */
 }
